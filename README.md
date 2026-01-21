@@ -29,11 +29,13 @@ All plots are saved as PNG files.
 
 ```
 ### Installation
+Install required Python libraries:
 ```bash
 pip install -r requirements.txt
 ```
 
 ### Run
+Run the script from the repository root:
 ```bash
 python src/MohrCircle.py Gr10 MatPt dat 10
 ```
@@ -45,6 +47,9 @@ python src/MohrCircle.py Gr10 MatPt dat 10
 4. **NumMaterialPoints**: Number of material points (an integer, e.g., `10`).
 
 ## Input File Format
+Each input file contains:
+ - **Line 1**: Comment line with volume of the material point
+ - **Line 2**: A 3×3 stress tensor in MPa (space-separated floats)
 ```text
 # AtomicVolume: 16.890729999999998
 -1.1061717529e+03 -9.9840942380e+02  2.4667868040e+02
