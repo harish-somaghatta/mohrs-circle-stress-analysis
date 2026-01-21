@@ -10,6 +10,8 @@ All plots are saved as PNG files.
 
 ## Repository Structure
 
+```text
+
 ├── README.md
 ├── requirements.txt
 ├── src/
@@ -36,7 +38,7 @@ Each `.dat` file must follow this format:
 ### Line 1: Volume (comment line)
 Example:
 
-# AtomicVolume: 16.890729999999998
+### AtomicVolume: 16.890729999999998
 
 Lines 2–4: Stress tensor (3×3) in MPa
 
@@ -45,20 +47,20 @@ Example:
 -9.9840942380e+02  1.7068065186e+03  5.1543750000e+02
  2.4667868040e+02  5.1543750000e+02 -1.4615225220e+02
 
-Installation
+##Installation
 
 Install required Python libraries:
 
 pip install -r requirements.txt
 
-How to Run
+##How to Run
 
 Run the script from the repository root:
 python src/MohrCircle.py Gr10 MatPt dat 10
 
 python src/MohrCircle.py Gr10 MatPt dat 10
 
-Arguments
+##Arguments
 
 FilePrefixStr → Prefix of the input files (example: Gr10)
 
@@ -80,7 +82,7 @@ input/Gr10_MatPt10.dat
 
 and save outputs to results/.
 
-Output Files
+##Output Files
 1) Individual material point plots
 
 Saved as:
