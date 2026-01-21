@@ -11,10 +11,6 @@ All plots are saved as PNG files.
 ## Repository Structure
 
 ```text
-
-## Repository Structure
-
-```text
 .
 ├── README.md
 ├── requirements.txt
@@ -32,6 +28,7 @@ All plots are saved as PNG files.
     ├── MohrCirc_Gr10_Avg.PNG
     └── MohrCirc_Gr10_VolAvg.PNG
 
+```
 
 Input File Format
 
