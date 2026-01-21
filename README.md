@@ -28,6 +28,11 @@ All plots are saved as PNG files.
     └── MohrCirc_Gr10_VolAvg.PNG
 
 ```
+## Sample Output (Average Stress Tensor)
+
+![Mohr’s Circle - Average Stress Tensor](results/MohrCirc_Gr10_Avg.PNG)
+
+
 ### Installation
 Install required Python libraries:
 ```bash
