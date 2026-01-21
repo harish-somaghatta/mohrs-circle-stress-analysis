@@ -30,8 +30,7 @@ All plots are saved as PNG files.
 ```
 ## Sample Output (Average Stress Tensor)
 
-![Mohr’s Circle - Average Stress Tensor](results/MohrCirc_Gr10_Avg.PNG)
-
+<img src="results/MohrCirc_Gr10_Avg.PNG" width="500">
 
 ### Installation
 Install required Python libraries:
